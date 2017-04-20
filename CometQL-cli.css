@@ -1,0 +1,64 @@
+#CometQL-cli
+{
+    display:none;
+      position: fixed;
+      bottom: 0px;
+      right: 20px;
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid;
+      z-index: 30;
+      box-shadow: 0 0 10px #222;
+}
+
+#CometQL-cli-text
+{
+     margin-bottom: 5px;
+     margin-top: 5px;
+}
+
+#CometQL-cli-text textarea
+{
+      padding: 3px;
+      font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+      max-height: 40px;
+      height: 40px;
+      min-width: 460px;
+      max-width: 1600px;
+        margin-right: 5px;
+}
+
+.CometQL-button
+{
+      padding: 3px;
+      font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+      float: right;
+      height: 40px;
+      width: 40px;
+}
+
+#CometQL-cli-reslog{
+      overflow: auto;
+      height: 300px;
+      border: 1px solid #ccc;
+      background-color: #fafafa;
+      font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+      padding: 10px;
+      max-width: 1600px;
+}
+
+#CometQL-cli-Header a{
+    float:right;
+}
+
+#CometQL-cli-open{
+      position: fixed;
+      bottom: 0px;
+      right: 20px;
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid;
+      z-index: 30;
+      box-shadow: 0 0 10px #222;
+      cursor: pointer;
+}

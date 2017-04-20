@@ -1,0 +1,12 @@
+<div id="CometQL-cli">
+
+    <div id='CometQL-cli-Header'>CometQL command line with a demo access <a href="" onclick="jQuery('#CometQL-cli').hide();  jQuery('#CometQL-cli-open').show(); return false;" >[X]</a></div>
+    <div id='CometQL-cli-text'>
+        <textarea id='cometQL-query-text' >SELECT * FROM pipes_messages WHERE name = "pipe1";</textarea>
+        <button class="CometQL-button" onclick='send_cometQL_query(jQuery("#cometQL-query-text").val())'>Ok</button>
+    </div>
+    <div id='CometQL-cli-reslog'></div>
+</div>
+<div id="CometQL-cli-open" onclick="jQuery('#CometQL-cli').show(); jQuery('#CometQL-cli-open').hide();" >
+    CometQL command line with a demo access.
+</div>
